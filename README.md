@@ -70,7 +70,7 @@ $BUILD_DIR/micropython/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/
 ```
 
 ### Run Micropython on ESP-32
-Just open the terminal and run this command. This command is for Linux Operating System
+Just open the terminal and run this command. /dev/ttyUSB0 is most common port used in Linux for ESP_32, you can change the port accordingly.
 ```bash
 picocom -b 115200 /dev/ttyUSB0
 ```
