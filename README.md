@@ -1,6 +1,6 @@
 ### Run Micropython-ulab on ESP32-based boards in Linux Operating System
 
-## Prerequisite to Micropython-ulab
+#### Prerequisite to Micropython-ulab
 You must have installed cmake and ESP-idf in you PC. You can download the ESP-idf from https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html and camake from https://cmake.org/download/
 
 It's recommended to download the latest stable version of cmake. However, you may face issues with ESP-IDF's latest version, so you can install any other version. 
