@@ -1,8 +1,6 @@
-### Run Micropython-ulab on ESP32-based boards
+### Run Micropython-ulab on ESP32-based boards in Linux Operating System
 
-`ulab` can be tested on the ESP32 in [wokwi's micropython emulator](https://wokwi.com/arduino/projects/322114140704342610) without having to compile the C code. This utility also offers the possibility to save and share your `micropython` code.
-
-### Prerequisite to Micropython-ulab
+## Prerequisite to Micropython-ulab
 You must have installed cmake and ESP-idf in you PC. You can download the ESP-idf from https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html and camake from https://cmake.org/download/
 
 It's recommended to download the latest stable version of cmake. However, you may face issues with ESP-IDF's latest version, so you can install any other version. 
