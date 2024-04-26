@@ -8,10 +8,6 @@ Firmware for `Espressif` hardware can be built in two different ways,, you can u
 
 #### Compiling with cmake
 
-Beginning with version 1.15, `micropython` switched to `cmake` on the ESP32 port. If your operating system supports `CMake > 3.12`, you can either simply download, and run the single [build script](https://github.com/v923z/micropython-ulab/blob/master/build/esp32-cmake.sh), or follow the step in this section. Otherwise, you should skip to the [next one](#compiling-with-make), where the old, `make`-based approach is discussed.
-
-In case you encounter difficulties during the build process, you can consult the (general instructions for the ESP32)[https://github.com/micropython/micropython/tree/master/ports/esp32#micropython-port-to-the-esp32].
-
 First, clone the `ulab`, the `micropython`, as well as the `espressif` repositories:
 
 ```bash
