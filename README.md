@@ -43,12 +43,16 @@ make
 cd $BUILD_DIR/micropython/ports/esp32
 make submodules
 ```
-After successfully install all the module, go to `$BUILD_DIR/micropython/ports/esp32` and run 
+After successfully install all the module, You have two options. Either you can run the build command inside your project or create a `makefile` and make it.
+
+#### Option 1
+go to `$BUILD_DIR/micropython/ports/esp32` and run 
 ```bash
 idf.py build
 ```
 This will generate a micropython image inside `$BUILD_DIR/micropython/ports/esp32/build-ESP32_GENERIC`. You can use that image to flash ESP-32
 
+#### Option 2
 Instead of build, you can also compile the firmware with `ulab`. In `$BUILD_DIR/micropython/ports/esp32` create a `makefile` with the following content:
 ```bash
 BOARD = GENERIC
